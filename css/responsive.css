@@ -1,4 +1,4 @@
-@media  screen and (max-width: 700px){
+@media  screen and (max-width: 600px){
     header .container{
         display: flex;
         flex-direction: column;
@@ -7,14 +7,18 @@
     }
     main .game-face{
         height:700px;
-        width: 400px;
+        width: 500px;
     }
     .game-face .description{
         margin-top: 30px;
         width: 150%;
     }
     .game-face .botao{
-        width: 350px;
+        width: 400px;
         margin-bottom: 10px;
+    }
+    .box-game{
+        width: 10px;
+        height: 180px;
     }
 }
