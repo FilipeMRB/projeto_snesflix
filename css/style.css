@@ -1,0 +1,99 @@
+:root{
+    --purple: #3e00a4;
+    --white: #a5a5a5;
+}
+*{
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--white);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/*configurações topo da página*/
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    color: var(--purple);
+    font-size: 40px;
+    font-style: italic;
+    margin-left: 5px;
+}
+header nav a{
+    text-decoration: none;
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header nav a:hover{
+    color:#8475dbfd
+}
+/*configurações jogo em destaque*/
+.game-face{
+    background: url("../img/game-face.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 600px;
+}
+
+.game-face .description{
+    color: var(--white);
+    padding-right:100px;
+    margin-top: 255px;
+    margin-bottom: 50px;
+    font-size: 18px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}   
+.game-face .botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    cursor:pointer;
+    transition: 2s ease all;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin-right: 5px;
+    margin-bottom: 40px;
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botao:hover{
+    background-color: var(--white);
+    color: #3e00a4;
+}
+
+.botao i{
+    padding-right: 5px;
+}
+.container{
+    margin-left: 20px;
+}
+.game-face .container{
+    margin-right: 70%;
+}
+
+.box-game{
+    height: 200px;
+    width: 12px;
+    display: block;
+    margin-right: 10px;
+}
+.carrosel-game{
+    padding-top: 25px;
+}
+.miniphoto{
+    text-align-last: center;
+}
+.name-game{
+    height: 45px;
+    width: 15px;
+    padding-top: 10px;
+}
